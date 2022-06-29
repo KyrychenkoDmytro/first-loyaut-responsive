@@ -1,15 +1,17 @@
 {
-  "name": "project_2",
+  "name": "polar",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://khardy-official.github.io/Polar-site/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
